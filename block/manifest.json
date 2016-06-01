@@ -1,0 +1,12 @@
+{
+  "name": "Block",
+  "version": "1.4",
+  "description": "Block all!!",
+  "permissions": ["webRequest", "webRequestBlocking",
+                  "*://accounts.google.com/*","*://www.facebook.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
